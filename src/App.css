@@ -1,0 +1,74 @@
+.App {
+  margin: 64px auto;
+  max-width: 1024px;
+}
+.cash {
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: bold;
+  margin-bottom: 24px;
+  text-align: center;
+}
+.buttons {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
+  align-items: center;
+}
+.btn {
+  margin-bottom: 16px;
+  display: block;
+  height: 40px;
+  max-width: 232px;
+  width: 100%;
+  background-color: #12153B;
+  color: #83BEFA;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  transition-property: background-color, color;
+  transition-duration: .3s;
+  transition-timing-function: linear;
+}
+.btn:hover {
+  background-color: #83BEFA;
+  color: #12153B;
+}
+.btn:last-child {
+  margin-bottom: 0;
+}
+h2 {
+  font-size: 32px;
+  line-height: 40px;
+  font-weight: bold;
+  color: #12153B;
+  margin-bottom: 24px;
+  text-align: center;
+}
+.items {
+  margin: 0 auto -16px auto;
+}
+.items__item {
+  border: 2px solid #12153B;
+  padding: 16px;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: bold;
+  color: #83BEFA;
+  margin-bottom: 16px;
+  cursor: pointer;
+  background-color: transparent;
+  transition: background-color .3s linear;
+}
+.items__item:hover {
+  background-color: #12153B;
+}
+.items__no {
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: bold;
+  color: red;
+}
